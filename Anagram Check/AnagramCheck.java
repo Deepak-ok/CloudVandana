@@ -13,13 +13,13 @@ public class AnagramCheck {
         String str2 = sc.nextLine();
 
         // Check 
-        boolean result = areAnagrams(str1, str2);
+        boolean result = anagramsCheck(str1, str2);
 
         System.out.println("Is this word is anagram " + result);
     }
 
     // Anagram Function
-    public static boolean areAnagrams(String s1, String s2) {
+    public static boolean anagramsCheck(String s1, String s2) {
         // Remove spaces and convert to lowercase
         s1 = s1.replaceAll("\\s", "").toLowerCase();
         s2 = s2.replaceAll("\\s", "").toLowerCase();
