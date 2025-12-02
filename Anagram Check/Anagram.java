@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class AnagramCheck {
+public class Anagram {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -15,7 +15,7 @@ public class AnagramCheck {
         // Check 
         boolean result = anagramsCheck(str1, str2);
 
-        System.out.println("Is this word is anagram " + result);
+        System.out.println("Is this word is anagram: " + result);
     }
 
     // Anagram Function
